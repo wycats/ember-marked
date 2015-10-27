@@ -29,7 +29,7 @@ var SectionComponent = Ember.Component.extend(WithDelayedPropertyMixin, {
    * @property delayedPropertyMethod
    * @inheritDoc
    */
-  delayedPropertyMethod:      'debounce',
+  delayedPropertyMethod:      'throttle',
 
   /**
    * The rendered html
